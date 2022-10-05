@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import styled from 'styled-components';
 import GlobalStyle from './GlobalStyle';
 import { useRef } from 'react';
 import Spline from '@splinetool/react-spline';

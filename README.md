@@ -1,3 +1,5 @@
+<img src="https://github.com/edwindharris/spline.design-react-trigger/blob/main/public/react-spline-icons.svg" style="width: 100%"/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
