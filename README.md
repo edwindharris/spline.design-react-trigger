@@ -1,4 +1,6 @@
-<img src="https://github.com/edwindharris/spline.design-react-trigger/blob/main/public/react-spline-icons.svg" style="width: 100%"/>
+<p align="center">
+  <img src="https://github.com/edwindharris/spline.design-react-trigger/blob/main/public/react-spline-icons.svg" style="width: 50%"/>
+</p>  
 
 # Getting Started with Create React App
 
