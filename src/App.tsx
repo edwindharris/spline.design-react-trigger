@@ -2,24 +2,25 @@ import React, { useEffect, useState } from 'react';
 import GlobalStyle from './GlobalStyle';
 import { useRef } from 'react';
 import Spline from '@splinetool/react-spline';
+import { Application } from '@splinetool/runtime';
 
 function App() {
 
-  const spline = useRef("");
+  const [splineApp, setSplineApp] = useState<Application>();
 
-  function onLoad(splineApp: any) {
-    spline.current = splineApp;
+  function onLoadSplineApp(appToSet: Application) {
+    setSplineApp(appToSet);
   }
 
   // Triggers events in Spline
   function triggerOne() {
     // @ts-ignore
-    spline.current.emitEvent('mouseDown', 'triggerOne')
+    splineApp.emitEvent('mouseDown', 'triggerOne')
   }
 
   function triggerTwo() {
     // @ts-ignore
-    spline.current.emitEvent('mouseDown', 'triggerTwo')
+    splineApp.emitEvent('mouseDown', 'triggerTwo')
   }
 
   // Theme change triggered by Spline
@@ -27,14 +28,14 @@ function App() {
 
   function onMouseDown(e: { target: { name: string; }; }) {
     if (e.target.name === 'chooseLight') {
-      setTheme('light'); 
+      setTheme('light');
    } else if (e.target.name === 'chooseDark') {
       setTheme('dark');
    }
   }
 
   useEffect(() => {
-    document.documentElement.className = theme; 
+    document.documentElement.className = theme;
   }, [theme])
 
 
@@ -50,7 +51,7 @@ function App() {
           </div>
         </div>
         <Spline className="splineScene" scene="https://prod.spline.design/u1wLA6W4ziVde-DY/scene.splinecode"
-          onLoad={onLoad}
+          onLoad={onLoadSplineApp}
           onMouseDown={onMouseDown} />
           <a href='https://edwindharris.dev' target="_blank"><h4 className='edDev'>edwin<em>d</em>harris</h4></a>
       </div>
