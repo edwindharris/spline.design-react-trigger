@@ -24,11 +24,17 @@
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### 3 - Open the .spline file 
+<br>
+
+## Explore / Edit Spline Scene
+
+### 1 - Open the .spline file 
 
   Open the .spline file from the <b>Spline_scene</b> folder in [Spline App](https://app.spline.design/).
+  
+  #### ** TRIGGER LABELLING IN REACT AND SPLINE MUST CORRELATE **
 
-### 4 - Export the scene in your Spline App as <b>Code > React</b>
+### 2 - Export the scene in your Spline App as <b>Code > React</b>
  
 Copy the scene link from the Spline export window to the “scene” property in the <b>Spline</b> component on line 52 of App.tsx
 
