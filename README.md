@@ -25,4 +25,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 4 - Export the scene in your Spline App as Code > React
 
+<p align="center">
+  <img src="https://github.com/edwindharris/spline.design-react-trigger/blob/main/public/spline-export-screenshot.png" style="width: 25%"/>
+</p>  
+
 5 - Copy the scene link from the Spline export window to the “scene” property in the <Spline> component on line 52 of App.tsx
