@@ -1,32 +1,37 @@
 <p align="center">
   <img src="https://github.com/edwindharris/spline.design-react-trigger/blob/main/public/react-spline-icons.svg" style="width: 50%"/>
-</p>  
+</p>
+<div align="center">
+  
+#  react <> spline trigger 
+  
+  This project is an example of basic integration between <b>[react](https://reactjs.org/)</b> and <b>[spline](https://spline.design/)</b> - A toggle in <b>spline</b> changes theme in <b>react</b> / Two buttons in <b>react</b> trigger a <b>spline</b> animation. This project requires opening the provided .spline file in [Spline App](https://app.spline.design/), which is free to use. 
 
-# spline.design <> react trigger
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+<div align="left">
 
 ## Getting set up
 
-1 - install dependencies
+### 1 - Install dependencies
 
-### `npm install @splinetool/react-spline @splinetool/runtime`
-### `npm install styled-components`
+`npm install @splinetool/react-spline @splinetool/runtime`
+ 
+`npm install styled-components`
 
-2 - In the project directory, you can run:
+### 2 - In the project directory, you can run:
 
-### `npm start`
+`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-3 - Open the .spline file from the Spline_scene folder in your Spline App.
+### 3 - Open the .spline file 
 
-4 - Export the scene in your Spline App as Code > React
+  Open the .spline file from <b>Spline_scene</b> folder in [Spline App](https://app.spline.design/).
+
+### 4 - Export the scene in your Spline App as <b>Code > React</b>
+ 
+Copy the scene link from the Spline export window to the “scene” property in the <Spline> component on line 52 of App.tsx
 
 <p align="center">
   <img src="https://github.com/edwindharris/spline.design-react-trigger/blob/main/public/spline-export-screenshot.png" style="width: 25%"/>
 </p>  
-
-5 - Copy the scene link from the Spline export window to the “scene” property in the <Spline> component on line 52 of App.tsx
