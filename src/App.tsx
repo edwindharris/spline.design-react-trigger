@@ -49,7 +49,7 @@ function App() {
             <button onClick={triggerTwo}>⇣</button>
           </div>
         </div>
-        <Spline className="splineScene" scene="https://PASTEYOURSPLINELINKHERE/scene.splinecode"
+        <Spline className="splineScene" scene="https://prod.spline.design/u1wLA6W4ziVde-DY/scene.splinecode"
           onLoad={onLoad}
           onMouseDown={onMouseDown} />
           <a href='https://edwindharris.dev' target="_blank"><h4 className='edDev'>edwin<em>d</em>harris</h4></a>
