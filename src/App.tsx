@@ -43,9 +43,9 @@ function App() {
     <>
       <GlobalStyle />
       <div className='App'>
-        <div className="reactButtons">
-          <h3 className='reactText'>These buttons control the SPLINE scene from REACT</h3>
-          <div className='buttonPanel'>
+        <div className="reactControlContainer">
+          <h3>These buttons control the SPLINE scene from REACT</h3>
+          <div className='reactButtonContainer'>
             <button onClick={triggerOne}>⇡</button>
             <button onClick={triggerTwo}>⇣</button>
           </div>
