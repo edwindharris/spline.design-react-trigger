@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import GlobalStyle from './GlobalStyle';
-import { useRef } from 'react';
 import Spline from '@splinetool/react-spline';
 import { Application } from '@splinetool/runtime';
 
@@ -37,7 +36,6 @@ function App() {
   useEffect(() => {
     document.documentElement.className = theme;
   }, [theme])
-
 
   return (
     <>

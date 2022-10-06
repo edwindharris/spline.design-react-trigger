@@ -101,7 +101,6 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.5;
     text-decoration: none;
   }
-
 `
 
 export default GlobalStyle;
